@@ -1,0 +1,624 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Mohamed & Hager | Wedding Invitation</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <!-- =====================================================
+         OPENING SCREEN
+    ====================================================== -->
+
+    <div
+        class="opening-screen"
+        id="openingScreen"
+    >
+
+        <div class="opening-content">
+
+            <p class="opening-small">
+                YOU ARE INVITED
+            </p>
+
+            <div class="opening-ornament">
+                <span></span>
+                <b>☾</b>
+                <span></span>
+            </div>
+
+            <h1>
+                Mohamed
+                <span>&</span>
+                Hager
+            </h1>
+
+            <p class="opening-date">
+                11 · 10 · 2026
+            </p>
+
+            <p class="opening-venue">
+                VOLN VILLA · 8:00 PM
+            </p>
+
+            <button
+                id="openInvitation"
+                class="open-button"
+            >
+                OPEN INVITATION
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         MUSIC
+    ====================================================== -->
+
+    <audio
+        id="weddingMusic"
+        loop
+        preload="auto"
+    >
+
+        <source
+            src="music.mp3"
+            type="audio/mpeg"
+        >
+
+    </audio>
+
+
+    <button
+        id="musicButton"
+        class="music-button"
+        aria-label="Music"
+    >
+        ♫
+    </button>
+
+
+    <!-- =====================================================
+         MAIN CONTENT
+    ====================================================== -->
+
+    <main id="mainContent">
+
+
+        <!-- =================================================
+             HERO
+        ================================================== -->
+
+        <section class="hero">
+
+            <div class="hero-glow"></div>
+
+            <div class="hero-content">
+
+                <p class="eyebrow">
+                    THE WEDDING INVITATION
+                </p>
+
+                <div class="hero-ornament">
+                    <span></span>
+                    <b>☾</b>
+                    <span></span>
+                </div>
+
+                <h2>
+                    Mohamed
+                    <span>&</span>
+                    Hager
+                </h2>
+
+                <div class="gold-line"></div>
+
+                <p class="hero-date">
+                    11 OCTOBER 2026
+                </p>
+
+                <p class="hero-location">
+                    VOLN VILLA · 8:00 PM
+                </p>
+
+            </div>
+
+
+            <div class="scroll-down">
+
+                <span></span>
+
+                SCROLL
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             STORY
+        ================================================== -->
+
+        <section class="section story reveal">
+
+            <p class="section-label">
+                OUR STORY
+            </p>
+
+            <div class="section-ornament">
+                <span></span>
+                <b>☾</b>
+                <span></span>
+            </div>
+
+            <h2>
+                Two Hearts.<br>
+                One Beautiful Beginning.
+            </h2>
+
+            <p class="section-text">
+                With love in our hearts and happiness in our souls,
+                we invite you to celebrate the beginning of our
+                beautiful journey together.
+            </p>
+
+        </section>
+
+
+        <!-- =================================================
+             DETAILS
+        ================================================== -->
+
+        <section class="section details reveal">
+
+            <p class="section-label">
+                THE DETAILS
+            </p>
+
+            <div class="section-ornament">
+                <span></span>
+                <b>☾</b>
+                <span></span>
+            </div>
+
+            <h2>
+                Join Us
+            </h2>
+
+            <p class="details-intro">
+                Save the date and join us for an unforgettable evening
+                filled with love, joy and beautiful memories.
+            </p>
+
+
+            <div class="details-grid">
+
+
+                <!-- DATE -->
+
+                <div class="detail-card">
+
+                    <div class="detail-icon">
+                        ♡
+                    </div>
+
+                    <p class="card-label">
+                        DATE
+                    </p>
+
+                    <p class="card-small">
+                        SUNDAY
+                    </p>
+
+                    <h3>
+                        11 October 2026
+                    </h3>
+
+                    <div class="card-line"></div>
+
+                </div>
+
+
+                <!-- TIME -->
+
+                <div class="detail-card">
+
+                    <div class="detail-icon">
+                        ◷
+                    </div>
+
+                    <p class="card-label">
+                        TIME
+                    </p>
+
+                    <p class="card-small">
+                        RECEPTION
+                    </p>
+
+                    <h3>
+                        8:00 PM
+                    </h3>
+
+                    <div class="card-line"></div>
+
+                </div>
+
+
+                <!-- VENUE -->
+
+                <div class="detail-card">
+
+                    <div class="detail-icon">
+                        ♢
+                    </div>
+
+                    <p class="card-label">
+                        VENUE
+                    </p>
+
+                    <p class="card-small">
+                        WEDDING CELEBRATION
+                    </p>
+
+                    <h3>
+                        Voln Villa
+                    </h3>
+
+                    <div class="card-line"></div>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             COUNTDOWN
+        ================================================== -->
+
+        <section class="countdown-section reveal">
+
+            <div class="countdown-inner">
+
+                <p class="section-label">
+                    COUNTING THE MOMENTS
+                </p>
+
+                <div class="section-ornament">
+                    <span></span>
+                    <b>☾</b>
+                    <span></span>
+                </div>
+
+                <h2>
+                    Until We Say
+                    <em>"I Do"</em>
+                </h2>
+
+                <p class="countdown-intro">
+                    Every second brings us closer to our beautiful day.
+                </p>
+
+
+                <div class="countdown">
+
+
+                    <div class="count-box">
+
+                        <span id="days">
+                            00
+                        </span>
+
+                        <small>
+                            DAYS
+                        </small>
+
+                    </div>
+
+
+                    <div class="count-box">
+
+                        <span id="hours">
+                            00
+                        </span>
+
+                        <small>
+                            HOURS
+                        </small>
+
+                    </div>
+
+
+                    <div class="count-box">
+
+                        <span id="minutes">
+                            00
+                        </span>
+
+                        <small>
+                            MINUTES
+                        </small>
+
+                    </div>
+
+
+                    <div class="count-box">
+
+                        <span id="seconds">
+                            00
+                        </span>
+
+                        <small>
+                            SECONDS
+                        </small>
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="countdown-bottom">
+
+                    <span></span>
+
+                    <p>
+                        11 · 10 · 2026
+                    </p>
+
+                    <span></span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             LOCATION
+        ================================================== -->
+
+        <section class="section location reveal">
+
+            <p class="section-label">
+                THE LOCATION
+            </p>
+
+            <div class="section-ornament">
+                <span></span>
+                <b>☾</b>
+                <span></span>
+            </div>
+
+            <h2>
+                Voln Villa
+            </h2>
+
+            <p class="section-text">
+                We can't wait to celebrate this special evening
+                with you.
+            </p>
+
+
+            <div class="location-info">
+
+                <span>
+                    11 OCTOBER 2026
+                </span>
+
+                <span class="location-dot">
+                    ·
+                </span>
+
+                <span>
+                    8:00 PM
+                </span>
+
+            </div>
+
+
+            <a
+                href="https://www.google.com/maps/search/?api=1&query=Voln+Villa"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="location-button"
+            >
+                VIEW LOCATION
+            </a>
+
+        </section>
+
+
+        <!-- =================================================
+             WISHES
+        ================================================== -->
+
+        <section class="section wishes reveal">
+
+            <p class="section-label">
+                LEAVE A WISH
+            </p>
+
+            <div class="section-ornament">
+                <span></span>
+                <b>☾</b>
+                <span></span>
+            </div>
+
+            <h2>
+                Send Us Your Love
+            </h2>
+
+            <p class="section-text">
+                Leave a beautiful message for Mohamed & Hager.
+            </p>
+
+
+            <form
+                id="wishForm"
+                class="wish-form"
+                action="https://formspree.io/f/xeaonglg"
+                method="POST"
+            >
+
+                <div class="input-group">
+
+                    <label for="guestName">
+                        YOUR NAME
+                    </label>
+
+                    <input
+                        type="text"
+                        id="guestName"
+                        name="name"
+                        placeholder="Enter your name"
+                        autocomplete="name"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="input-group">
+
+                    <label for="guestMessage">
+                        YOUR MESSAGE
+                    </label>
+
+                    <textarea
+                        id="guestMessage"
+                        name="message"
+                        rows="6"
+                        placeholder="Write your congratulations..."
+                        required
+                    ></textarea>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="submit-button"
+                >
+                    SEND YOUR WISH
+                </button>
+
+
+                <p
+                    id="formStatus"
+                    class="form-status"
+                ></p>
+
+            </form>
+
+        </section>
+
+        <!-- FINAL MOMENT -->
+        <section class="final-moment reveal">
+
+            <div class="final-decoration final-left">❦</div>
+            <div class="final-decoration final-right">❦</div>
+
+            <div class="final-content">
+
+                <p class="section-label">
+                    A BEAUTIFUL DAY
+                </p>
+
+                <div class="final-ornament">
+                    <span></span>
+                    <b>☾</b>
+                    <span></span>
+                </div>
+
+                <h2>
+                    A Beautiful Beginning<br>
+                    <em>to a Beautiful Story.</em>
+                </h2>
+
+                <p class="final-date">
+                    11 · 10 · 2026
+                </p>
+
+                <div class="final-names">
+                    Mohamed <span>♡</span> Hager
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             FOOTER
+        ================================================== -->
+
+        <footer>
+
+            <div class="footer-ornament">
+
+                <span></span>
+
+                <b>☾</b>
+
+                <span></span>
+
+            </div>
+
+            <p>
+                MOHAMED & HAGER
+            </p>
+
+            <span>
+                11 · 10 · 2026
+            </span>
+
+            <small>
+                WITH LOVE
+            </small>
+
+        </footer>
+
+
+    </main>
+
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+```
